@@ -1,0 +1,184 @@
+{
+	"main": {
+		"name": "Oseghale Ehichioya Israel",
+		"description": "I am a web development engineer and I use ReactJs, NodeJs, ExpessJs framework, MongoDB to develop pages and build APIs. This project is a resume template that can be used as the project home page or resume page",
+		"image": "passport.jpg",
+		"bio": "Use this bio section as your way of describing yourself and saying what you do, what technologies you like to use or feel most comfortable with, describing your personality, or whatever else you feel like throwing in.",
+		"contactmessage": "Here is where you should write your message to readers to have them get in contact with you.",
+		"email": "mrbrucekessy@gmail.com",
+		"phone": "+239055779759",
+		"github": "https://github.com/ossygarcia",
+		"project": "https://github.com/ossygarcia",
+		"address": {
+			"street": "(C35, Kaffin Tella B)",
+			"city": "(Minna City)",
+			"state": "(Niger State)"
+		},
+		"website": "http://www.timbakerdev.com",
+		"resumedownload": "http://timbakerdev.com",
+		"social": [
+			{
+				"name": "facebook",
+				"url": "https://github.com/ossygarcia",
+				"className": "fa fa-facebook"
+			},
+			{
+				"name": "twitter",
+				"url": "http://twitter.com",
+				"className": "fa fa-twitter"
+			},
+			{
+				"name": "linkedin",
+				"url": "https://www.linkedin.com/in/tim-baker-8420009a/",
+				"className": "fa fa-linkedin"
+			},
+			{
+				"name": "instagram",
+				"url": "http://instagram.com/tbaker_x",
+				"className": "fa fa-instagram"
+			},
+			{
+				"name": "github",
+				"url": "https://github.com/ossygarcia",
+				"className": "fa fa-github"
+			}
+		]
+	},
+	"resume": {
+		"skillmessage": "Here you can create a short write-up of your skills to show off to employers",
+		"education": [
+			{
+				"school": "NAOWA",
+				"degree": "National Innovation Diploma",
+				"graduated": "March 2014",
+				"description": "Describe your experience at school, what you learned, what useful skills you have acquired etc."
+			},
+			{
+				"school": "Polytechnic",
+				"degree": "Higher National Diploma",
+				"graduated": "March 2020",
+				"description": "Describe your experience at school, what you learned, what useful skills you have acquired etc."
+			}
+		],
+		"work": [
+			{
+				"company": "National Examination Council",
+				"title": "Intern Backend Developer ",
+				"years": "March 2020 - Present",
+				"description": "Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
+			},
+			{
+				"company": "DOLC Technology",
+				"title": "Network Engineer",
+				"years": "March 2014 - December 2019",
+				"description": "Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
+			}
+		],
+		"skills": [
+			{
+				"name": "NodeJs",
+				"level": "60%"
+			},
+			{
+				"name": "ExpressJs",
+				"level": "85%"
+			},
+			{
+				"name": "ReactJs",
+				"level": "60%"
+			},
+			{
+				"name": "CSS",
+				"level": "90%"
+			},
+			{
+				"name": "MONGOBD",
+				"level": "80%"
+			},
+			{
+				"name": "MySQL",
+				"level": "50%"
+			},
+			{
+				"name": "JAVA",
+				"level": "40%"
+			}
+		]
+	},
+	"portfolio": {
+		"projects": [
+			{
+				"title": "Canadian Wanderlust",
+				"category": "My Travel Blog for my post-university travels",
+				"image": "01.jpg",
+				"url": "https://www.canadianwanderlust.com"
+			},
+			{
+				"title": "Fury Fighting Gear",
+				"category": "(offline now) A fighting gear company I started",
+				"image": "02.jpg",
+				"url": "http://www.timbakerdev.com"
+			},
+			{
+				"title": "Original Thai Food",
+				"category": "Website I built for a restaurant I like in Thailand",
+				"image": "03.jpg",
+				"url": "http://www.timbakerdev.com/originalthaifood.github.io"
+			},
+			{
+				"title": "Resume Website",
+				"category": "A React based resume website template",
+				"image": "04.jpg",
+				"url": "http://www.timbakerdev.com"
+			},
+			{
+				"title": "Smirkspace",
+				"category": "(MVP Only) A React and Meteor based chat University project.",
+				"image": "05.jpg",
+				"url": "http://www.smirkspace.com"
+			},
+			{
+				"title": "Canadian Wanderlust",
+				"category": "My Travel Blog for my post-university travels",
+				"image": "06.jpg",
+				"url": "https://www.canadianwanderlust.com"
+			},
+			{
+				"title": "Fury Fighting Gear",
+				"category": "(offline now) A fighting gear company I started",
+				"image": "01.jpg",
+				"url": "http://www.timbakerdev.com"
+			},
+			{
+				"title": "Original Thai Food",
+				"category": "Website I built for a restaurant I like in Thailand",
+				"image": "02.jpg",
+				"url": "http://www.timbakerdev.com/originalthaifood.github.io"
+			},
+			{
+				"title": "Original Thai Food",
+				"category": "Website I built for a restaurant I like in Thailand",
+				"image": "03.jpg",
+				"url": "http://www.timbakerdev.com/originalthaifood.github.io"
+			},
+			{
+				"title": "Resume Website",
+				"category": "A React based resume website template",
+				"image": "04.jpg",
+				"url": "http://www.timbakerdev.com"
+			},
+			{
+				"title": "Smirkspace",
+				"category": "(MVP Only) A React and Meteor based chat University project.",
+				"image": "05.jpg",
+				"url": "http://www.smirkspace.com"
+			},
+			{
+				"title": "Canadian Wanderlust",
+				"category": "My Travel Blog for my post-university travels",
+				"image": "06.jpg",
+				"url": "https://www.canadianwanderlust.com"
+			}
+		]
+	}
+}
