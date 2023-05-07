@@ -35,7 +35,7 @@ jobs:
           password: ${{ secrets.SSH_PASSWORD }}
           port: ${{ secrets.SSH_PORT }}
           script: |
-            docker image pull sreehariskumar/flaskapp:latest
-            docker container stop flask
-            docker container rm flask
-            docker container run -d --name flask -p 80:5000 sreehariskumar/flaskapp
+            docker image pull oseghale1/resume_app:latest
+            docker container stop resume_app
+            docker container rm resume_app
+            docker container run -d --name resume_app -p 80:5000 oseghale1/resume_app
