@@ -35,7 +35,4 @@ jobs:
           password: ${{ secrets.SECRET_KEY }}
           port: ${{ secrets.PORT }}
           script: |
-            docker image pull oseghale1/resume_app:latest
-            docker container stop resume_app
-            docker container rm resume_app
-            docker container run -d --name resume_app -p 80:5000 oseghale1/resume_app
+            whoami
