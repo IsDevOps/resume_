@@ -28,7 +28,7 @@ jobs:
           tags: oseghale1/resume_app:latest
           
       - name: deploying
-        uses: appleboy/ssh-action@v0.1.8
+        uses: appleboy/ssh-action@master
         with:
           host: ${{ secrets.HOST }}
           username: ${{ secrets.USER }}
