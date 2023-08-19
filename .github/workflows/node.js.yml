@@ -1,25 +1,27 @@
+name: Docker Swarm Deploy
+
 on:
   push:
-    branches: [ "master" ]
+    branches:
+      - master
 
 jobs:
-
-  build:
-    name: Build Docker image and push to repositories
+  deploy:
     runs-on: ubuntu-latest
-
+    
     steps:
       - name: Checkout code
-        uses: actions/checkout@v3   
-          
-      - name: deploying
-        uses: appleboy/ssh-action@master
-        with:
-          host: ${{ secrets.HOST }}
-          username: ${{ secrets.USER }}
-          key: ${{ secrets.SECRET_KEY}}
-          port: ${{ secrets.PORT }}
-          script: |
-            git pull
-            sudo systemctl restart nginx
-            
+        uses: actions/checkout@v2
+
+      - name: Build Docker image
+        run: docker build -t resume_node:latest .
+
+      - name: Login to Docker Hub
+        run: echo $DOCKERHUB_PASSWORD | docker login -u $DOCKERHUB_USERNAME --password-stdin
+
+      - name: Push Docker image
+        run: docker push resume_node:latest
+
+      # - name: Deploy to Docker Swarm
+      #   run: |
+      #     ssh user@your-swarm-manager 'docker service update --image resume_node:latest your-service-name'
