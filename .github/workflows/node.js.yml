@@ -17,8 +17,7 @@ jobs:
         run: docker build -t resume_node:latest .
       
       - name: Configure Docker CLI
-        run: echo "${{ secrets.DOCKER_CONFIG_JSON }}" | base64 -d > $HOME/.docker/config.json
-      
+        run: echo "${{ secrets.DOCKER_CONFIG_JSON }}" | base64 -d > $HOME/.docker/config.json      
 
       - name: Push Docker image
         run: docker push resume_node:latest
