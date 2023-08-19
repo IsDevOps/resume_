@@ -47,7 +47,7 @@ class About extends Component {
                     <br />
                     <span>{email}</span>
                   </p>
-                </div>
+                </div> 
                 <div className="columns download">
                   <p>
                     <a href={resumeDownload} className="button">

@@ -1,28 +1,23 @@
-name: Docker Swarm Deploy
+name: Build and Push Docker Image
 
 on:
   push:
     branches:
-      - master
+      - master  # Or whichever branch you want to trigger the workflow
 
 jobs:
-  deploy:
+  build-and-push:
     runs-on: ubuntu-latest
-    
+
     steps:
-      - name: Checkout codes
+      - name: Checkout Repository
         uses: actions/checkout@v2
 
-      - name: Build Docker image
-        run: docker build -t resume_node:latest .
-      
-      - name: Configure Docker CLI
-        run: echo "${{ secrets.DOCKER_CONFIG_JSON }}" | base64 -d > $HOME/.docker/config.json
-      
+      - name: Login to Docker Hub
+        run: docker login -u ${{ secrets.DOCKERHUB_USERNAME }} -p ${{ secrets.DOCKERHUB_PASSWORD }}
 
-      - name: Push Docker image
-        run: docker push resume_node:latest
+      - name: Build and Push Docker Image
+        run: |
+          docker build -t oseghale1/resume_ap:latest .
+          docker push oseghale1/resume_ap:latest
 
-      # - name: Deploy to Docker Swarm
-      #   run: |
-      #     ssh user@your-swarm-manager 'docker service update --image resume_node:latest your-service-name'
