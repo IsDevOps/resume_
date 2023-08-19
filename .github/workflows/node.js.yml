@@ -19,7 +19,7 @@ jobs:
       - name: Configure Docker CLI
         run: echo ${{ secrets.DOCKER_CONFIG_JSON }} | base64 -d > $HOME/.docker/config.json
 
-      - name: Push Docker image
+      - name: Push Docker images
         run: docker push resume_node:latest
 
       # - name: Deploy to Docker Swarm
