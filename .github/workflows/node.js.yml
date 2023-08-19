@@ -15,6 +15,10 @@ jobs:
 
       - name: Build Docker image
         run: docker build -t resume_node:latest .
+
+      - name: Log in to Docker Hub
+        run: docker login -u oseghale1 -p O9o55779759@
+      
       
       - name: Configure Docker CLI
         run: echo "${{ secrets.DOCKER_CONFIG_JSON }}" | base64 -d > config.json      
