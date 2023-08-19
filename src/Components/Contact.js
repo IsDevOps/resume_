@@ -63,7 +63,7 @@ class Contact extends Component {
                   </div>
 
                   <div>
-                    <label htmlFor="contactSubject">Subjects</label>
+                    <label htmlFor="contactSubject">Subject</label>
                     <input
                       type="text"
                       defaultValue=""
