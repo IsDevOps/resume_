@@ -1,18 +1,18 @@
 {
 	"main": {
 		"name": "Oseghale Ehichioya Israel",
-		"description": "I am a web development engineer and I use ReactJs, NodeJs, ExpessJs framework, MongoDB to develop pages and build APIs. This project is a resume template that can be used as the project home page or resume page",
+		"description": "Highly motivated and results-oriented DevOps and Cloud Engineer with 4+ years of experience designing, implementing, building CI/CD pipelines and managing cloud infrastructure on AWS, Azure platforms. Proven ability to optimize performance, automate deployments, and ensure security best practices. Skilled in troubleshooting and resolving cloud-related issues. Eager to leverage expertise to contribute to a fast-paced cloud environment.",
 		"image": "passport.jpg",
 		"bio": "Use this bio section as your way of describing yourself and saying what you do, what technologies you like to use or feel most comfortable with, describing your personality, or whatever else you feel like throwing in.",
 		"contactmessage": "Here is where you should write your message to readers to have them get in contact with you.",
-		"email": "mrbrucekessy@gmail.com",
+		"email": "issyoseghale@gmail.com",
 		"phone": "+239055779759",
-		"github": "https://github.com/ossygarcia",
-		"project": "https://github.com/ossygarcia",
+		"github": "https://github.com/isDevOps",
+		"project": "https://github.com/isDevOps",
 		"address": {
-			"street": "(C35, Kaffin Tella B)",
-			"city": "(Minna City)",
-			"state": "(Niger State)"
+			"street": "(House 12 Diamond luxury)",
+			"city": "(Abuja)",
+			"state": "(Federal capital territory)"
 		},
 		"website": "http://www.timbakerdev.com",
 		"resumedownload": "http://timbakerdev.com",
@@ -24,12 +24,12 @@
 			},
 			{
 				"name": "twitter",
-				"url": "http://twitter.com",
+				"url": "https://x.com/israel_cloud",
 				"className": "fa fa-twitter"
 			},
 			{
 				"name": "linkedin",
-				"url": "https://www.linkedin.com/in/tim-baker-8420009a/",
+				"url": "https://www.linkedin.com/in/oseghale-ehichioya/",
 				"className": "fa fa-linkedin"
 			},
 			{
@@ -45,7 +45,7 @@
 		]
 	},
 	"resume": {
-		"skillmessage": "Here you can create a short write-up of your skills to show off to employers",
+		"skillmessage": "Microsoft Azure, AWS (Keywords: Microsoft Azure, AWS), DevOps: Azure DevOps, Git, CI/CD Pipelines (Keywords: Azure DevOps, Git, CI/CD), Infrastructure as Code (IaC): Terraform, ARM Templates (Keywords: Terraform, ARM Templates), Docker, Kubernetes (Keywords: Docker, Kubernetes), Virtual Networks, Load Balancers, VPNs, Network Security Groups (Keywords:Networking, Azure), Python, JSON, YAML, Bash, PowerShell (Keywords: Scripting Languages),Version Control: Git (Keywords: Version Control, Git), Azure Monitor, CloudWatch (Keywords: Monitoring, Azure Monitor), Azure Security Center, AWS IAM (Keywords: Security, Azure Security Center,AWS IAM),VMware (Keywords: Virtualization, Vmware,Ansible, Puppet, Chef",
 		"education": [
 			{
 				"school": "NAOWA",
@@ -76,109 +76,80 @@
 		],
 		"skills": [
 			{
-				"name": "NodeJs",
-				"level": "60%"
+				"name": "Cloud Platform",
+				"level": "100%"
 			},
 			{
-				"name": "ExpressJs",
-				"level": "85%"
+				"name": "DevOps",
+				"level": "95%"
 			},
 			{
-				"name": "ReactJs",
-				"level": "60%"
+				"name": "Infrastructure As Code",
+				"level": "70%"
 			},
 			{
-				"name": "CSS",
+				"name": "Containerization",
 				"level": "90%"
 			},
 			{
-				"name": "MONGOBD",
+				"name": "Networking",
 				"level": "80%"
 			},
 			{
-				"name": "MySQL",
-				"level": "50%"
+				"name": "Scripting",
+				"level": "70%"
 			},
 			{
-				"name": "JAVA",
-				"level": "40%"
+				"name": "Version Control",
+				"level": "90%"
+			},
+			{
+				"name": "Security",
+				"level": "90%"
+			},
+			{
+				"name": "Virtualization",
+				"level": "90%"
+			},
+			{
+				"name": "Configuration",
+				"level": "90%"
 			}
 		]
 	},
 	"portfolio": {
 		"projects": [
 			{
-				"title": "Canadian Wanderlust",
+				"title": "CI/CD",
 				"category": "My Travel Blog for my post-university travels",
 				"image": "01.jpg",
 				"url": "https://www.canadianwanderlust.com"
 			},
 			{
-				"title": "Fury Fighting Gear",
+				"title": "Deployment",
 				"category": "(offline now) A fighting gear company I started",
 				"image": "02.jpg",
 				"url": "http://www.timbakerdev.com"
 			},
 			{
-				"title": "Original Thai Food",
+				"title": "Migrations",
 				"category": "Website I built for a restaurant I like in Thailand",
 				"image": "03.jpg",
 				"url": "http://www.timbakerdev.com/originalthaifood.github.io"
 			},
 			{
-				"title": "Resume Website",
+				"title": "Cloud Provisioning",
 				"category": "A React based resume website template",
 				"image": "04.jpg",
 				"url": "http://www.timbakerdev.com"
 			},
 			{
-				"title": "Smirkspace",
+				"title": "Bash Scripting",
 				"category": "(MVP Only) A React and Meteor based chat University project.",
 				"image": "05.jpg",
 				"url": "http://www.smirkspace.com"
-			},
-			{
-				"title": "Canadian Wanderlust",
-				"category": "My Travel Blog for my post-university travels",
-				"image": "06.jpg",
-				"url": "https://www.canadianwanderlust.com"
-			},
-			{
-				"title": "Fury Fighting Gear",
-				"category": "(offline now) A fighting gear company I started",
-				"image": "01.jpg",
-				"url": "http://www.timbakerdev.com"
-			},
-			{
-				"title": "Original Thai Food",
-				"category": "Website I built for a restaurant I like in Thailand",
-				"image": "02.jpg",
-				"url": "http://www.timbakerdev.com/originalthaifood.github.io"
-			},
-			{
-				"title": "Original Thai Food",
-				"category": "Website I built for a restaurant I like in Thailand",
-				"image": "03.jpg",
-				"url": "http://www.timbakerdev.com/originalthaifood.github.io"
-			},
-			{
-				"title": "Resume Website",
-				"category": "A React based resume website template",
-				"image": "04.jpg",
-				"url": "http://www.timbakerdev.com"
-			},
-			{
-				"title": "Smirkspace",
-				"category": "(MVP Only) A React and Meteor based chat University project.",
-				"image": "05.jpg",
-				"url": "http://www.smirkspace.com"
-			},
-			{
-				"title": "Canadian Wanderlust",
-				"category": "My Travel Blog for my post-university travels",
-				"image": "06.jpg",
-				"url": "https://www.canadianwanderlust.com"
 			}
+			
 		]
 	}
 }
