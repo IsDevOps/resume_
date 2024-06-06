@@ -145,7 +145,7 @@
 			},
 			{
 				"title": "Bash Scripting",
-				"category": "(MVP Only) A React and Meteor based chat University project.",
+				"category": "Bash script to break down data into dynamodb compatible items",
 				"image": "05.jpg",
 				"url": "http://www.smirkspace.com"
 			}
