@@ -2,7 +2,7 @@ pipeline{
     agent{
         label "node"
     }
-    
+    stages{
         stage("Build the pipeline"){
             steps{
                 echo "========executing A========"
@@ -10,6 +10,6 @@ pipeline{
                 archiveArtifacts artifacts: 'target/build.zip', fingerprint: true
 
             }
-           
         }
     }
+}
