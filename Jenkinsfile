@@ -4,8 +4,8 @@ pipeline {
     stages{
         stage("Build the pipeline"){
             steps{
-                echo "========executing A Builds========"
-                sh "yarn build"
+                echo "========executing A Build========"
+                sh "npm run build"
                 archiveArtifacts artifacts: 'target/build.zip', fingerprint: true
             }
         }
