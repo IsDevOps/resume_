@@ -12,7 +12,7 @@ pipeline {
             steps{
                 echo "========executing A Build========"
                 sh "npm run build"
-                archive 'target/build.zip', fingerprint: true
+                archiveArtifacts artifacts: 'target/build.zip', fingerprint: true
             }
         }
     }
