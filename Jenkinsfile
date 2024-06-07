@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     stages{
-        stage("Build the pipeline"){
+        stage("install dependencies"){
             steps{
                 echo "========executing A Build========"
                 sh "npm install"
