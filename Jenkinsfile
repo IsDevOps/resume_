@@ -19,7 +19,6 @@ pipeline {
             steps{
               withCredentials([usernamePassword(credentialsId: 'docker-hub')]){  
                 sh 'printenv'
-                sh 'sudo usermod -aG docker oseghale1'
                 sh 'docker build -t oseghale1/tourApp:""$GIT_COMMIT"" .'
                 sh 'docker push oseghale1/tourApp:""$GIT_COMMIT""'
             }  
