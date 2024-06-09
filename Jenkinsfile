@@ -1,5 +1,5 @@
 pipeline {
-    agent any
+    agent anyhttps://www.startupschool.org/
 
     stages{
         stage("install dependencies"){
@@ -17,7 +17,7 @@ pipeline {
         }
         stage("Build Docker Image & Push"){
             steps{
-                sh 'sudo usermod -aG docker DevOps'
+                sh 'printenv'
                 sh 'docker build -t oseghale1/tourApp:""$GIT_COMMIT"" .'
                 sh 'docker push oseghale1/tourApp:""$GIT_COMMIT""'
             }  
