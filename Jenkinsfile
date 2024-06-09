@@ -1,5 +1,5 @@
 pipeline {
-    agent anyhttps://www.startupschool.org/
+    agent any
 
     stages{
         stage("install dependencies"){
