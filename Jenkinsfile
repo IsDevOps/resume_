@@ -17,7 +17,7 @@ pipeline {
         }
         stage("Build Docker Image & Push"){
             steps{
-                sh "sudo usermod -aG docker DevOps"
+                sh 'sudo usermod -aG docker DevOps'
                 sh 'docker build -t oseghale1/tourApp:""$GIT_COMMIT"" .'
                 sh 'docker push oseghale1/tourApp:""$GIT_COMMIT""'
             }  
