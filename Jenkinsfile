@@ -20,7 +20,7 @@ pipeline {
               withDockerRegistry([credentialsId:'docker-hub', url: '']){  
                 sh 'printenv'
                 sh 'sudo docker build -t oseghale1/tour:""$GIT_COMMIT"" .'
-                sh "sudo docker login docker.io"
+                sh "sudo docker login -u oseghale1 -p O9o55779759@"
                 sh 'sudo docker push oseghale1/tour:""$GIT_COMMIT""'
             }  
         }
