@@ -8,7 +8,7 @@ pipeline {
                 sh "npm install"
             }
         }
-        stage("Build the pipeline"){
+        stage("Build the pipeline"){   
             steps{
                 echo "========executings A Build========"
                 sh "npm run build"
